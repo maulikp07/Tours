@@ -1,1 +1,1 @@
-# Tours
+Advanced CSS and SASS project
