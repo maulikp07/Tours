@@ -21,13 +21,3 @@ The 7 Folders:
   7. em are measured relative to the current font-size, if used to specify lengths.
   8. rem are always measured relative to the document's root font-size.
   9. vh and vw are simply percentage measurements of the viewport's height and width.
-  
-  
-  ************************************************CSS Cascading********************************************************************
-  
-  ********* Importance************ >>> ************ Specificity********************* >>> ************** Source Order****************
-  1. User !important Declaration    1. Inline styles                      1. The last declaration in the code will 
-  2. Author !important Declaration  2. IDs                                2. Override all other declarations and will be
-  3. Author Declaration             3.Classes, psuedo-classess, attribute    applied.
-  4. User Declaration               4. Elements, psuedo-elements
-  5. Default Browser Declaration
