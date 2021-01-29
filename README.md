@@ -26,8 +26,8 @@ The 7 Folders:
   ************************************************CSS Cascading********************************************************************
   
   ********* Importance************ >>> ************ Specificity********************* >>> ************** Source Order****************
-User !important Declaration           Inline styles                                    The last declaration in the code will 
-Author !important Declaration         IDs                                              Override all other declarations and will be
-Author Declaration                    Classes, psuedo-classess, attribute              applied.
-User Declaration                      Elements, psuedo-elements
-Default Browser Declaration
+  1. User !important Declaration >>>>>>>>> Inline styles                                    The last declaration in the code will 
+  2. Author !important Declaration         IDs                                              Override all other declarations and will be
+  3. Author Declaration                    Classes, psuedo-classess, attribute              applied.
+  4. User Declaration                      Elements, psuedo-elements
+  5. Default Browser Declaration
