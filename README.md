@@ -10,14 +10,3 @@ The 7 Folders:
   themes/
   abstracts/
   vendors/
-
-***********************Behind the Scene Value Processing.******************************************************************
-  1. Each property has an initial value, even though it is not declared.
-  2. Browsers specify a root foont-size for each page ( user agent declaration usually 16px).
-  3. Percentages and relative values are always converted to pixels.
-  4. Percentages are measured relative to their parent's font-size, if used to specify font-size
-  5. Percentages are measured relative to their parent's width, if used to specify lengths.
-  6. em are measured relative to their parent font-size, if used to specify font-sixe
-  7. em are measured relative to the current font-size, if used to specify lengths.
-  8. rem are always measured relative to the document's root font-size.
-  9. vh and vw are simply percentage measurements of the viewport's height and width.
